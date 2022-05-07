@@ -9,10 +9,11 @@ function loadGroups()
         localStorage.setItem("customGroups","");
 
     //load predefined groups
-    new Group(groups, "Formation", "Radio", ["Standard", "Modified", "Aussie", "I-Formation"]);
-    new Group(groups, "Net Player", "Radio", ["Double Left", "Left", "Right", "Double Right"]);
-    new Group(groups, "Net Player Movement", "Radio", ["Hold", "Cross"]);
+    new Group(groups, "Formation", "Radio", ["Standard", "Modified", "Aussie", "I-Formation", "Serve and Volley"]);
     new Group(groups, "Serve Pos", "Radio", ["1","2","3","4"]);
+    new Group(groups, "Net Player Movement", "Radio", ["Dbl Left", "Left", "Right", "Dbl Right", "Alert"]);
+    new Group(groups, "Exception", "Checkbox", ["Missed Ret", "Dbl Fault"]);
+    
     
 
     //load custom groups

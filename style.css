@@ -348,14 +348,13 @@ h5
 {
     margin-left:10px;
     margin-top:10px;
-    position:absolute;
     z-index:10;
 }
 .export-btn
 {
-    right:10px;
+    float:right;
+    margin-right:10px;
     margin-top:10px;
-    position:absolute;
     z-index:10;
 }
 .point-add-confirmation
@@ -392,4 +391,9 @@ h5
 {
     margin:auto;
     text-align:center;
+}
+.top-buttons
+{
+    width:100%;
+
 }
