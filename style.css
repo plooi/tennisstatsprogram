@@ -27,17 +27,21 @@ h5
 }
 .home-page-matches
 {
-    display:flex;
     margin-right:50px;
     margin-left:50px;
+    padding:auto;
+    overflow:auto;
+    text-align:center;
 }
 .home-page-match, .home-page-new-match, .home-page-upload-match
 {
     position:relative;
+    
     margin-top:20px;
     margin-bottom: 20px;
     margin-left:20px;
     margin-right:20px;
+    
     width:200px;
     height:200px;
     
@@ -47,6 +51,8 @@ h5
     border:5px solid #283552;*/
     /*background-image: linear-gradient(#f2f2ff, #ddddff, #f2f2ff);*/
     display:flex;
+    float:left;
+    
     border-radius: 10px;
     flex-direction: column;
     cursor:pointer;
