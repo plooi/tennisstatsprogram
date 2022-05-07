@@ -86,7 +86,7 @@ function homePageLoadAllMatches()
 
     var uploadNewMatch = document.createElement("span");
     uploadNewMatch.className = "home-page-upload-match";
-    uploadNewMatch.id = "home-page-new-match";
+    uploadNewMatch.id = "home-page-upload-match";
     uploadNewMatch.appendChild(document.createTextNode("Upload New Match"));
     uploadNewMatch.onclick = function()
     {
@@ -111,7 +111,7 @@ async function uploadFile()
         new Group(match.groups, g["name"], g["selectionType"], g["items"]);
     }
     match.save();
-    
+
     var points = jsonFile["points"];
     for(var i = 0; i < points.length; i++)
     {

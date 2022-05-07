@@ -49,17 +49,37 @@ h5
     display:flex;
     border-radius: 10px;
     flex-direction: column;
+    cursor:pointer;
 
+}
+.home-page-upload-match
+{
+    background-color: #c275c2;
+    border:3px solid #925592;
+}
+.home-page-new-match
+{
+    background-color: #C8FFD5;
+    border:3px solid #88F295;
 }
 .home-page-new-match, .home-page-upload-match
 {
     justify-content:center;
     align-items: center;
 }
-.home-page-match:hover, .home-page-new-match:hover
+.home-page-match:hover
 {
     background-color: #D8E5FF;
 }
+.home-page-upload-match:hover
+{
+    background-color: #d285e2;
+}
+.home-page-new-match:hover
+{
+    background-color: #D8FFE5;
+}
+
 .home-page-match-players
 {
     height:70px;
@@ -151,7 +171,10 @@ h5
     
     
 }
-
+.display-group-item
+{
+    cursor: pointer;
+}
 .create-match
 {
     
@@ -235,6 +258,7 @@ h5
     height:40px;
     display:flex;
     padding:5px;
+    cursor:pointer;
 }
 .point-winner-display
 {
